@@ -1,8 +1,13 @@
 # Experimental Norwegian (Bokmål) language model for Spacy (Including NER)
 
-Project for training a NER tagger.
-
+Project for training a NER and DEP tagger for Norwegian Bokmål.
 This repository is not properly cleaned up, more will be done later.
+
+Originally trained for Nudge AS and their product Tagbox.ai (http://tagbox.ai/):
+
+Original dataset (source):
+https://github.com/ltgoslo/norne
+
 
 ## Installation
 
@@ -45,14 +50,15 @@ Extended:
       "token_acc":100.0
     },
 
-## Simplified and detailed models
+## Core and Extended models
 
 In the folder `packaged_models` there are two trained models. The first (`v2`)
 is trained on a simplified version of the original dataset, however the only
 difference is that combined tags (mostly GPE_LOC) are converted to only GPE.
-This improved the test results from ≈0.83 to ≈0.85.
+**This model was named "core".** This improved the test results from ≈0.83 to ≈0.85.
 
 The second model `V3` is trained on the original dataset.
+**This model was named "ext".** and performs a bit worse than the core model (0.83)
 
 ## Re splitt dataset
 
