@@ -1,0 +1,36 @@
+{
+  "lang":"nb",
+  "name":"core_news_sm",
+  "pipeline":[
+    "tagger",
+    "parser",
+    "sbd",
+    "ner"
+  ],
+  "accuracy":{
+    "uas":88.4345103245,
+    "las":85.7621102149,
+    "ents_p":84.9284928493,
+    "ents_r":85.3982300885,
+    "ents_f":85.1627137341,
+    "tags_acc":95.5524581855,
+    "token_acc":100.0
+  },
+  "speed":{
+    "nwords":39460,
+    "cpu":3798.3242752033,
+    "gpu":6777.0018626654
+  },
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0
+  },
+  "spacy_version":">=2.0.11,<3.0.0",
+  "version":"1.0.0",
+  "description":"pos, dep and ner tagger for Norwegian Bokm\u00e5l based of norwegian online newspaper corus",
+  "author":"Ole Henrik Skogstr\u00f8m (Amplify AS) and Nudge AS",
+  "email":"henrik@amplify.no",
+  "url":"amplify.no",
+  "license":"CC BY-SA 3.0"
+}

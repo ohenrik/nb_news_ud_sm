@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: nb-core-news-sm
+Version: 1.0.0
+Summary: pos, dep and ner tagger for Norwegian Bokmål based of norwegian online newspaper corus
+Home-page: amplify.no
+Author: Ole Henrik Skogstrøm (Amplify AS) and Nudge AS
+Author-email: henrik@amplify.no
+License: CC BY-SA 3.0
+Description: UNKNOWN
+Platform: UNKNOWN
