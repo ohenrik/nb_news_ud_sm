@@ -11,9 +11,13 @@ https://github.com/ltgoslo/norne
 
 ## Installation
 
-To install the package use this command:
+To install `nb_core_news_sm` package use this command:
 
-    pip install #
+    pip install https://github.com/ohenrik/nb_news_ud_sm/raw/master/packaged_models/nb_core_sm_v2/nb_core_news_sm-1.0.0/dist/nb_core_news_sm-1.0.0.tar.gz
+
+To install `nb_ext_news_sm` package use this command:
+
+    pip install https://github.com/ohenrik/nb_news_ud_sm/raw/master/packaged_models/nb_core_sm_v3/nb_ext_news_sm-1.0.0/dist/nb_ext_news_sm-1.0.0.tar.gz
 
 ## Usage
 
